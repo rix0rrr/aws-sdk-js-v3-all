@@ -57,7 +57,10 @@ function main() {
     const ourPackageJsonPath = path.join(__dirname, '..', 'package.json');
     const ourPackageJson = JSON.parse(fs.readFileSync(ourPackageJsonPath, 'utf8'));
 
-    ourPackageJson.dependencies = dependencies;
+    ourPackageJson.devDependencies = {
+      ...ourPackageJson.devDependencies,
+      ...dependencies,
+    };
 
     // Our version will become the highest version we've seen
     const versions = Array.from(new Set(Object.values(dependencies)));
