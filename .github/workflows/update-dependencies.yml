@@ -40,6 +40,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add package.json
+          git add package.json index.js
           git commit -m "chore: update AWS SDK dependencies"
           git push
