@@ -1,0 +1,42 @@
+name: Update AWS SDK Dependencies
+
+on:
+  schedule:
+    # Run every Monday at 00:00 UTC
+    - cron: '0 0 * * 1'
+  workflow_dispatch:
+    # Allow manual triggering
+
+jobs:
+  update-dependencies:
+    permissions:
+      contents: write  # Allow the action to push changes to the repository
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+
+      - name: Install dependencies
+        run: npm ci --omit peer
+
+      - name: Update dependencies
+        run: node scripts/update-dependencies.js
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --exit-code package.json || echo "changes=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push if changed
+        if: steps.git-check.outputs.changes == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add package.json
+          git commit -m "chore: update AWS SDK dependencies"
+          git push
