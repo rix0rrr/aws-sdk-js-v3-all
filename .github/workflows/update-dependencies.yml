@@ -22,10 +22,13 @@ jobs:
           node-version: lts/*
 
       - name: Install dependencies
-        run: npm ci --omit peer
+        run: yarn
 
       - name: Update dependencies
         run: node scripts/update-dependencies.js
+
+      - name: Test that dependencies install properly
+        run: npm install --include peer
 
       - name: Check for changes
         id: git-check
