@@ -22,6 +22,9 @@ const { dynamodb } = require('aws-sdk-js-v3-all');
 const client = new dynamodb.DynamoDB(...);
 ```
 
+Note that importing this package adds about 1.5s (!) of startup latency to your application,
+because of all the JS that needs to be parsed.
+
 ## How it works
 
 This package:
