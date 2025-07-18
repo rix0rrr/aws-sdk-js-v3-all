@@ -73,9 +73,8 @@ function main() {
     console.log('Updated package.json and index.js');
 
     fs.writeFileSync('index.js', [
-      'module.exports = {',
-      ...Object.keys(dependencies).map(pkg => `  "${svc(pkg)}": require('${pkg}'),`),
-      '};',
+      // This syntax will make it so https://github.com/nodejs/cjs-module-lexer recognizes the exports for ESM imports
+      ...Object.keys(dependencies).map(pkg => `exports['${svc(pkg)}'] = require('${pkg}');`),
     ].join('\n'), 'utf-8');
 
   } catch (error) {
@@ -91,7 +90,7 @@ function main() {
 }
 
 function svc(pkg) {
-  return pkg.replace(/^@aws-sdk\/client-/, '');
+  return pkg.replace(/^@aws-sdk\/client-/, '').replace(/-/g, '_');
 }
 
 main();

@@ -1,6 +1,6 @@
 {
   "name": "aws-sdk-js-v3-all",
-  "version": "3.847.2",
+  "version": "3.847.3",
   "description": "Monolith for all AWS SDK JS v3 clients",
   "main": "dist/index.js",
   "scripts": {
