@@ -25,6 +25,7 @@ exports['apprunner'] = require('@aws-sdk/client-apprunner');
 exports['appstream'] = require('@aws-sdk/client-appstream');
 exports['appsync'] = require('@aws-sdk/client-appsync');
 exports['apptest'] = require('@aws-sdk/client-apptest');
+exports['arc_region_switch'] = require('@aws-sdk/client-arc-region-switch');
 exports['arc_zonal_shift'] = require('@aws-sdk/client-arc-zonal-shift');
 exports['artifact'] = require('@aws-sdk/client-artifact');
 exports['athena'] = require('@aws-sdk/client-athena');
