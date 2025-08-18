@@ -39,6 +39,7 @@ exports['backupsearch'] = require('@aws-sdk/client-backupsearch');
 exports['batch'] = require('@aws-sdk/client-batch');
 exports['bcm_data_exports'] = require('@aws-sdk/client-bcm-data-exports');
 exports['bcm_pricing_calculator'] = require('@aws-sdk/client-bcm-pricing-calculator');
+exports['bcm_recommended_actions'] = require('@aws-sdk/client-bcm-recommended-actions');
 exports['bedrock'] = require('@aws-sdk/client-bedrock');
 exports['bedrock_agent'] = require('@aws-sdk/client-bedrock-agent');
 exports['bedrock_agent_runtime'] = require('@aws-sdk/client-bedrock-agent-runtime');
