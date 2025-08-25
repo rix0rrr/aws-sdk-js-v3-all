@@ -37,6 +37,7 @@ exports['backup'] = require('@aws-sdk/client-backup');
 exports['backup_gateway'] = require('@aws-sdk/client-backup-gateway');
 exports['backupsearch'] = require('@aws-sdk/client-backupsearch');
 exports['batch'] = require('@aws-sdk/client-batch');
+exports['bcm_dashboards'] = require('@aws-sdk/client-bcm-dashboards');
 exports['bcm_data_exports'] = require('@aws-sdk/client-bcm-data-exports');
 exports['bcm_pricing_calculator'] = require('@aws-sdk/client-bcm-pricing-calculator');
 exports['bcm_recommended_actions'] = require('@aws-sdk/client-bcm-recommended-actions');
