@@ -43,3 +43,11 @@ jobs:
           git add package.json index.js
           git commit -m "chore: update AWS SDK dependencies"
           git push
+
+      # Necessary to do explicitly because GHA a GHA event won't trigger another GHA workflow
+      - name: Invoke release
+        if: steps.git-check.outputs.changes == 'true'
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          ref: main
+          workflow: release.yml
