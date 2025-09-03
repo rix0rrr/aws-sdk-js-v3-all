@@ -363,7 +363,6 @@ exports['sfn'] = require('@aws-sdk/client-sfn');
 exports['shield'] = require('@aws-sdk/client-shield');
 exports['signer'] = require('@aws-sdk/client-signer');
 exports['simspaceweaver'] = require('@aws-sdk/client-simspaceweaver');
-exports['sms'] = require('@aws-sdk/client-sms');
 exports['snow_device_management'] = require('@aws-sdk/client-snow-device-management');
 exports['snowball'] = require('@aws-sdk/client-snowball');
 exports['sns'] = require('@aws-sdk/client-sns');
