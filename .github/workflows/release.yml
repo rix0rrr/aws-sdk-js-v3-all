@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     # Allow manual triggering
   workflow_run:
-    workflows: ["update-dependencies.yml"]
+    workflows: ["Update AWS SDK Dependencies"]
     types: ["completed"]
 
 jobs:
