@@ -332,6 +332,7 @@ exports['route53_recovery_control_config'] = require('@aws-sdk/client-route53-re
 exports['route53_recovery_readiness'] = require('@aws-sdk/client-route53-recovery-readiness');
 exports['route53profiles'] = require('@aws-sdk/client-route53profiles');
 exports['route53resolver'] = require('@aws-sdk/client-route53resolver');
+exports['rtbfabric'] = require('@aws-sdk/client-rtbfabric');
 exports['rum'] = require('@aws-sdk/client-rum');
 exports['s3'] = require('@aws-sdk/client-s3');
 exports['s3_control'] = require('@aws-sdk/client-s3-control');
