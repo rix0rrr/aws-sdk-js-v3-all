@@ -405,6 +405,7 @@ exports['waf'] = require('@aws-sdk/client-waf');
 exports['waf_regional'] = require('@aws-sdk/client-waf-regional');
 exports['wafv2'] = require('@aws-sdk/client-wafv2');
 exports['wellarchitected'] = require('@aws-sdk/client-wellarchitected');
+exports['wickr'] = require('@aws-sdk/client-wickr');
 exports['wisdom'] = require('@aws-sdk/client-wisdom');
 exports['workdocs'] = require('@aws-sdk/client-workdocs');
 exports['workmail'] = require('@aws-sdk/client-workmail');
