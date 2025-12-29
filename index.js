@@ -141,7 +141,6 @@ exports['eks_auth'] = require('@aws-sdk/client-eks-auth');
 exports['elastic_beanstalk'] = require('@aws-sdk/client-elastic-beanstalk');
 exports['elastic_load_balancing'] = require('@aws-sdk/client-elastic-load-balancing');
 exports['elastic_load_balancing_v2'] = require('@aws-sdk/client-elastic-load-balancing-v2');
-exports['elastic_transcoder'] = require('@aws-sdk/client-elastic-transcoder');
 exports['elasticache'] = require('@aws-sdk/client-elasticache');
 exports['elasticsearch_service'] = require('@aws-sdk/client-elasticsearch-service');
 exports['emr'] = require('@aws-sdk/client-emr');
