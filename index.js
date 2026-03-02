@@ -143,6 +143,7 @@ exports['elastic_load_balancing'] = require('@aws-sdk/client-elastic-load-balanc
 exports['elastic_load_balancing_v2'] = require('@aws-sdk/client-elastic-load-balancing-v2');
 exports['elasticache'] = require('@aws-sdk/client-elasticache');
 exports['elasticsearch_service'] = require('@aws-sdk/client-elasticsearch-service');
+exports['elementalinference'] = require('@aws-sdk/client-elementalinference');
 exports['emr'] = require('@aws-sdk/client-emr');
 exports['emr_containers'] = require('@aws-sdk/client-emr-containers');
 exports['emr_serverless'] = require('@aws-sdk/client-emr-serverless');
