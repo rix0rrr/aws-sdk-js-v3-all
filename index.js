@@ -101,6 +101,7 @@ exports['connect_contact_lens'] = require('@aws-sdk/client-connect-contact-lens'
 exports['connectcampaigns'] = require('@aws-sdk/client-connectcampaigns');
 exports['connectcampaignsv2'] = require('@aws-sdk/client-connectcampaignsv2');
 exports['connectcases'] = require('@aws-sdk/client-connectcases');
+exports['connecthealth'] = require('@aws-sdk/client-connecthealth');
 exports['connectparticipant'] = require('@aws-sdk/client-connectparticipant');
 exports['controlcatalog'] = require('@aws-sdk/client-controlcatalog');
 exports['controltower'] = require('@aws-sdk/client-controltower');
