@@ -365,6 +365,7 @@ exports['shield'] = require('@aws-sdk/client-shield');
 exports['signer'] = require('@aws-sdk/client-signer');
 exports['signer_data'] = require('@aws-sdk/client-signer-data');
 exports['signin'] = require('@aws-sdk/client-signin');
+exports['simpledbv2'] = require('@aws-sdk/client-simpledbv2');
 exports['simspaceweaver'] = require('@aws-sdk/client-simspaceweaver');
 exports['snow_device_management'] = require('@aws-sdk/client-snow-device-management');
 exports['snowball'] = require('@aws-sdk/client-snowball');
