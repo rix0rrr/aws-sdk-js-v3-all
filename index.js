@@ -399,6 +399,7 @@ exports['transcribe_streaming'] = require('@aws-sdk/client-transcribe-streaming'
 exports['transfer'] = require('@aws-sdk/client-transfer');
 exports['translate'] = require('@aws-sdk/client-translate');
 exports['trustedadvisor'] = require('@aws-sdk/client-trustedadvisor');
+exports['uxc'] = require('@aws-sdk/client-uxc');
 exports['verifiedpermissions'] = require('@aws-sdk/client-verifiedpermissions');
 exports['voice_id'] = require('@aws-sdk/client-voice-id');
 exports['vpc_lattice'] = require('@aws-sdk/client-vpc-lattice');
