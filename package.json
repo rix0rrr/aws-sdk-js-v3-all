@@ -456,5 +456,8 @@
     "@aws-sdk/client-sustainability": "3.1029.0",
     "@aws-sdk/client-marketplace-discovery": "3.1029.0",
     "@aws-sdk/client-s3files": "3.1029.0"
-  }
+  },
+  "repository": {
+      "url": "https://github.com/rix0rrr/aws-sdk-js-v3-all"
+  },
 }
