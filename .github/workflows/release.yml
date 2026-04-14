@@ -10,6 +10,10 @@ on:
     workflows: ["Update AWS SDK Dependencies"]
     types: ["completed"]
 
+permissions:
+  id-token: write  # Required for OIDC
+  contents: read
+
 jobs:
   release:
     runs-on: ubuntu-latest
@@ -24,7 +28,7 @@ jobs:
         with:
           node-version: lts/*
 
-          # This will make $NODE_AUTH_TOKEN be used for npm publish
+          # This is necessary for publishing to work
           registry-url: 'https://registry.npmjs.org/'
 
       - name: Install dependencies
@@ -35,5 +39,3 @@ jobs:
 
       - name: Publish to NPM
         run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
