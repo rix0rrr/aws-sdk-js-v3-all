@@ -183,6 +183,7 @@ exports['imagebuilder'] = require('@aws-sdk/client-imagebuilder');
 exports['inspector'] = require('@aws-sdk/client-inspector');
 exports['inspector_scan'] = require('@aws-sdk/client-inspector-scan');
 exports['inspector2'] = require('@aws-sdk/client-inspector2');
+exports['interconnect'] = require('@aws-sdk/client-interconnect');
 exports['internetmonitor'] = require('@aws-sdk/client-internetmonitor');
 exports['invoicing'] = require('@aws-sdk/client-invoicing');
 exports['iot'] = require('@aws-sdk/client-iot');
