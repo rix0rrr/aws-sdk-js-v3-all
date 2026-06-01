@@ -322,6 +322,7 @@ exports['rekognition'] = require('@aws-sdk/client-rekognition');
 exports['rekognitionstreaming'] = require('@aws-sdk/client-rekognitionstreaming');
 exports['repostspace'] = require('@aws-sdk/client-repostspace');
 exports['resiliencehub'] = require('@aws-sdk/client-resiliencehub');
+exports['resiliencehubv2'] = require('@aws-sdk/client-resiliencehubv2');
 exports['resource_explorer_2'] = require('@aws-sdk/client-resource-explorer-2');
 exports['resource_groups'] = require('@aws-sdk/client-resource-groups');
 exports['resource_groups_tagging_api'] = require('@aws-sdk/client-resource-groups-tagging-api');
