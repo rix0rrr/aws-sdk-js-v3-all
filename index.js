@@ -351,6 +351,7 @@ exports['sagemaker_geospatial'] = require('@aws-sdk/client-sagemaker-geospatial'
 exports['sagemaker_metrics'] = require('@aws-sdk/client-sagemaker-metrics');
 exports['sagemaker_runtime'] = require('@aws-sdk/client-sagemaker-runtime');
 exports['sagemaker_runtime_http2'] = require('@aws-sdk/client-sagemaker-runtime-http2');
+exports['sagemakerjobruntime'] = require('@aws-sdk/client-sagemakerjobruntime');
 exports['savingsplans'] = require('@aws-sdk/client-savingsplans');
 exports['scheduler'] = require('@aws-sdk/client-scheduler');
 exports['schemas'] = require('@aws-sdk/client-schemas');
