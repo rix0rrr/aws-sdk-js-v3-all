@@ -288,6 +288,7 @@ exports['outposts'] = require('@aws-sdk/client-outposts');
 exports['partnercentral_account'] = require('@aws-sdk/client-partnercentral-account');
 exports['partnercentral_benefits'] = require('@aws-sdk/client-partnercentral-benefits');
 exports['partnercentral_channel'] = require('@aws-sdk/client-partnercentral-channel');
+exports['partnercentral_revenue_measurement'] = require('@aws-sdk/client-partnercentral-revenue-measurement');
 exports['partnercentral_selling'] = require('@aws-sdk/client-partnercentral-selling');
 exports['payment_cryptography'] = require('@aws-sdk/client-payment-cryptography');
 exports['payment_cryptography_data'] = require('@aws-sdk/client-payment-cryptography-data');
