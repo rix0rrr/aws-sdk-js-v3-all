@@ -306,6 +306,7 @@ exports['pinpoint_sms_voice_v2'] = require('@aws-sdk/client-pinpoint-sms-voice-v
 exports['pipes'] = require('@aws-sdk/client-pipes');
 exports['polly'] = require('@aws-sdk/client-polly');
 exports['pricing'] = require('@aws-sdk/client-pricing');
+exports['pricing_plan_manager'] = require('@aws-sdk/client-pricing-plan-manager');
 exports['proton'] = require('@aws-sdk/client-proton');
 exports['qapps'] = require('@aws-sdk/client-qapps');
 exports['qbusiness'] = require('@aws-sdk/client-qbusiness');
