@@ -1,5 +1,6 @@
 exports['accessanalyzer'] = require('@aws-sdk/client-accessanalyzer');
 exports['account'] = require('@aws-sdk/client-account');
+exports['account_access'] = require('@aws-sdk/client-account-access');
 exports['acm'] = require('@aws-sdk/client-acm');
 exports['acm_pca'] = require('@aws-sdk/client-acm-pca');
 exports['agent_registry'] = require('@aws-sdk/client-agent-registry');
