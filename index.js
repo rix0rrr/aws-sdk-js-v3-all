@@ -181,6 +181,7 @@ exports['guardduty'] = require('@aws-sdk/client-guardduty');
 exports['health'] = require('@aws-sdk/client-health');
 exports['healthlake'] = require('@aws-sdk/client-healthlake');
 exports['iam'] = require('@aws-sdk/client-iam');
+exports['iam_toolbox'] = require('@aws-sdk/client-iam-toolbox');
 exports['identitystore'] = require('@aws-sdk/client-identitystore');
 exports['imagebuilder'] = require('@aws-sdk/client-imagebuilder');
 exports['inspector'] = require('@aws-sdk/client-inspector');
